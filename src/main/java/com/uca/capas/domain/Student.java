@@ -49,5 +49,8 @@ public class Student {
 		this.estado = estado;
 	}
 	
+	public String delegateEstado() {
+		return this.estado ? "Activo":"Inactivo";
+	}
 	
 }
